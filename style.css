@@ -1,0 +1,154 @@
+* {
+    /* border: 2px solid; */
+}
+
+body {
+    background-color: rgb(186, 226, 240);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#header {
+    border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(192, 247, 228);
+}
+
+h1 {
+    color: rgb(218, 10, 10);
+    font-size: 50px;
+    /* border: 2px solid; */
+    margin: 10px;
+    padding: 10px;
+}
+
+menu {
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+    height: 50px;
+    gap: 5px;
+}
+
+menu button {
+    width: 75px;
+    height: 25px;
+    background-color: rgb(255, 230, 1);
+    /* border-radius: 30px; */
+    box-shadow: 5px 5px 10px;
+}
+
+menu button:hover {
+    background-color: rgb(102, 255, 0);
+    transition-duration: 10ms;
+}
+
+.linkMenu {
+    font-size: 20px;
+}
+
+main {
+    border: 2px solid;
+    background-color: rgb(160, 160, 247);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+h2 {
+    /* border: 2px solid; */
+    background-color: rgb(182, 248, 226);
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+p {
+    /* border: 2px solid; */
+    background-color: rgb(190, 132, 245);
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.games {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.game {
+    border: 2px solid;
+    background-color: rgb(248, 215, 173);
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.gameImg {
+    width: 300px;
+    opacity: 0.7;
+
+}
+
+.gameImg:hover {
+    opacity: 1;
+}
+
+.game a {
+    color: rgb(255, 1, 1);
+}
+
+.game a:visited {
+    color: blue;
+}
+
+h3 {
+    border: 2px solid;
+    background-color: rgb(245, 172, 77);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    border: 2px solid;
+    background-color: chocolate;
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid;
+    background-color: rgb(253, 233, 143);
+}
+
+.iconeRedes {
+    width: 100px;
+}
+
+.Redes {
+    display: flex;
+    gap: 40px;
+    border: 2px solid rgb(255, 0, 0);
+    padding: 5px;
+
+}
